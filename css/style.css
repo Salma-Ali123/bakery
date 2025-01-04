@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}.baker{
+    color: #EAA636;
+}header{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(../images/carousel-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}.btn-1{
+    background-color: #EAA636;
+    border-radius: 25px;
+}#services .card{
+    background-color: #FDF5EB;
+}#services .card:hover{
+    background-color: white;
+    box-shadow: 1px 1px 0.5rem 0.5rem gray;
+    transition: ease-in 1s;
+}#callUs .container{
+    background-color: #EAA636;
+}#callUs{
+    background-color: #FDF5EB;
+}.call{
+    font-size: 80px;
+}#products{
+    background-color: #FDF5EB;
+}.layer{
+    background-image: linear-gradient(to top , rgba(120, 80, 6, 0.5) ,rgba(144, 95, 5, 0.5));
+    height: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: height 1s;
+    overflow: hidden;
+    color:#EAA636 ;
+}#products .card:hover{
+    transform: scale(1.05);
+    border-radius: 15px;
+    box-shadow: 1px 1px 0.5rem 0.5rem gray;
+}#products .card:hover .layer{
+    height: 100%;
+}.btn2{
+    border: 1px solid #EAA636;
+    border-radius: 25px;
+}.top-btn{
+    background-color: #EDB354;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999999999;
+    display: none;
+}#ourTeam{
+    display: flex;
+    gap: 20px;
+}#ourTeam .card{
+    background-color: #FDF5EB;
+    text-align: center;
+    border: none;
+    width: 25%;
+    border-radius: 15px;
+}#ourTeam h4{
+    margin: 10px 0;
+}
+#contact{
+    background-color: #FDF5EB;
+}#contact .container{
+    background-color: #EAA636;
+    border-radius: 10px;
+}
+@media (max-width: 678px) {
+    header{
+        text-align: center;
+    }#ourTeam{
+        display: flex;
+        flex-wrap: wrap;
+    }#ourTeam .card{
+        width: 100%;
+    }#about{
+        text-align: center;
+    }
+}
